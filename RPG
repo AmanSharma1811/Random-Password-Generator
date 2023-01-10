@@ -1,0 +1,5 @@
+import random
+passlen = int(input("Enter the length of password"))
+S = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%&*()?"
+password = "".join(random.sample(S,passlen ))
+print(password)
